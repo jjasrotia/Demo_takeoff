@@ -1,9 +1,6 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import Header from "./components/Header";
 import LeavesSection from "./components/LeavesSection";
 import MainContent from "./components/MainContent";
-import { Box } from "@mui/material";
 import VideoSection from "./components/VideoSection";
 import DetailSection from "./components/DetailSection";
 import ConfidentialitySection from "./components/ConfidentialitySection";
@@ -19,9 +16,9 @@ export default function Home() {
 
       <VideoSection />
       <DetailSection />
-   <ConfidentialitySection/>
-   <Testimonials/>
-<Footer/>
+      <ConfidentialitySection />
+      <Testimonials />
+      <Footer />
     </>
   );
 }
